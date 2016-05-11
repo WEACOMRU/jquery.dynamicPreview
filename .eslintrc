@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "qunit": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "eqeqeq": "error"
+  }
+}

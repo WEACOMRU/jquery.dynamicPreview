@@ -1,0 +1,33 @@
+{
+  "name": "jquery-dynamic-preview",
+  "version": "1.0.0",
+  "description": "Dynamic previews of images set",
+  "main": "jquery.dynamicPreview.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WEACOMRU/jquery.dynamicPreview.git"
+  },
+  "keywords": [
+    "img",
+    "video",
+    "preview",
+    "javascript"
+  ],
+  "author": "bashkos <bashkos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WEACOMRU/jquery.dynamicPreview/issues"
+  },
+  "homepage": "https://github.com/WEACOMRU/jquery.dynamicPreview#readme",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}

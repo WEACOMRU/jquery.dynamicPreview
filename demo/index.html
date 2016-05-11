@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Preview Demo</title>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../jquery.dynamicPreview.js"></script>
+    <script>
+        $(function () {
+            $('.js-dynamic-preview-1').dynamicPreview();
+
+            $('.js-dynamic-preview-2').dynamicPreview({
+                url: 'img/slides/',
+                prefix: 'slide0',
+                zeroPad: true,
+                count: 10
+            });
+        });
+    </script>
+</head>
+<body>
+    <img src="img/preview.jpg" class="js-dynamic-preview-1"
+         data-dynamic-preview-url="img/slides/"
+         data-dynamic-preview-prefix="slide0"
+         data-dynamic-preview-zero-pad="true"
+         data-dynamic-preview-count="10">
+
+    <img src="img/preview.jpg" class="js-dynamic-preview-2">
+</body>
+</html>
