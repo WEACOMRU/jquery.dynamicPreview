@@ -39,5 +39,5 @@ $('.js-dynamic-preview').dynamicPreview('start', options);
 
 Самостоятельно остановить смену изображений можно с помощью метода `stop`:
 ```
-$('.js-dynamic-preview').dynamicPreview('stop', options);
+$('.js-dynamic-preview').dynamicPreview('stop');
 ```
